@@ -1,0 +1,30 @@
+[
+    {
+        "name": "В мире",
+        "href": "/world/"
+    },
+    {
+        "name": "Культура",
+        "href": "/culture/"
+    },
+    {
+        "name": "Шоу-бизнес",
+        "href": "/showbiz/"
+    },
+    {
+        "name": "Спорт",
+        "href": "/sport/"
+    },
+    {
+        "name": "Экология",
+        "href": "/eco/"
+    },
+    {
+        "name": "Авто",
+        "href": "/auto/"
+    },
+    {
+        "name": "Мысли вслух",
+        "href": "/misli/"
+    }
+]
