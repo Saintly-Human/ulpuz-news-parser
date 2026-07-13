@@ -1,5 +1,6 @@
 from .base import BaseParser
 from settings import BASE_URL
+import bs4
 
 
 class DetailParser(BaseParser):
@@ -27,7 +28,6 @@ class DetailParser(BaseParser):
                 detail_soup = self.get_soup(detail_link)
 
                 full_description = detail_soup.find('div', {'itemprop': 'articleBody'})
-                import bs4
                 full_description = str(full_description).replace('<br/>', '\n')
                 full_description = bs4.BeautifulSoup(full_description, 'html.parser').get_text(strip=True)
                 print('FULL DESCRIPTION:', full_description)

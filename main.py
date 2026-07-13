@@ -1,4 +1,3 @@
-import json
 from site_parser.category import CategoryParser
 from site_parser.detail import DetailParser
 from settings import safe_to_json
