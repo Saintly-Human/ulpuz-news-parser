@@ -1,6 +1,6 @@
 # Upl.uz News Parser
 
-**[View Code](./upluz-news-parser/)** A Python-based web scraper designed to extract news categories, article metadata, and full-text descriptions from the [Upl.uz](https://upl.uz) news portal.
+A Python-based web scraper designed to extract news categories, article metadata, and full-text descriptions from the [Upl.uz](https://upl.uz) news portal.
 
 ## 🚀 Features
 
